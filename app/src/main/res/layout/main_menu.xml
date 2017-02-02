@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Button
+        android:text="자기관찰"
+        android:layout_width="@dimen/main_menu_button"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_margin_top"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/buttonshape"
+        android:id="@+id/mainmenu1" />
+
+    <Button
+        android:text="계획 및 목표설정"
+        android:layout_width="@dimen/main_menu_button"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_margin_top"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/mainmenu1"
+        android:background="@drawable/buttonshape"
+        android:id="@+id/mainmenu2" />
+
+    <Button
+        android:text="실행"
+        android:layout_width="@dimen/main_menu_button"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_margin_top"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/mainmenu2"
+        android:background="@drawable/buttonshape"
+        android:id="@+id/mainmenu3" />
+
+    <Button
+        android:text="helper"
+        android:layout_width="@dimen/main_menu_button"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_margin_top"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/mainmenu3"
+        android:background="@drawable/buttonshape"
+        android:id="@+id/mainmenu4" />
+
+</RelativeLayout>
